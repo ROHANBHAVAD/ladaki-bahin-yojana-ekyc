@@ -1,0 +1,17 @@
+{
+  "name": "Maha Yojana Guide",
+  "short_name": "MahaGuide",
+  "description": "Independent information guide for Maharashtra government schemes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
