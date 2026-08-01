@@ -184,7 +184,7 @@ export default function Footer() {
                 <p>Email</p>
 
                 <p className="text-gray-400">
-                  support@mahayojanaguide.com
+                  rohanphysics123@gmail.com
                 </p>
 
               </div>

@@ -36,12 +36,12 @@ if (!name.trim() || !email.trim() || !subject.trim() || !message.trim()) {
   return;
 }
 
-const mailtoLink = `mailto:support@mahayojanaguide.com?subject=${encodeURIComponent(`[Contact] ${subject.trim()}`)}&body=${encodeURIComponent(`Name: ${name.trim()}\nEmail: ${email.trim()}\n\n${message.trim()}`)}`;
+const mailtoLink = `mailto:rohanphysics123@gmail.com?subject=${encodeURIComponent(`[Contact] ${subject.trim()}`)}&body=${encodeURIComponent(`Name: ${name.trim()}\nEmail: ${email.trim()}\n\n${message.trim()}`)}`;
 
 window.location.href = mailtoLink;
 setStatus({
   type: "success",
-  message: "Your email app should open with a draft message. If it does not, email us directly at support@mahayojanaguide.com.",
+  message: "Your email app should open with a draft message. If it does not, email us directly at rohanphysics123@gmail.com.",
 });
   }
 
@@ -70,7 +70,7 @@ setStatus({
           <Mail className="text-blue-700" size={30} />
         </div>
         <h3 className="mt-6 text-2xl font-bold">Email</h3>
-        <p className="mt-4 leading-7 text-gray-600">support@mahayojanaguide.com</p>
+        <p className="mt-4 leading-7 text-gray-600">rohanphysics123@gmail.com</p>
       </div>
 
       <div className="rounded-3xl bg-white p-8 shadow-lg">
